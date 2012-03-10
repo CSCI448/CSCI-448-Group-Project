@@ -1,0 +1,11 @@
+C:\Users\biometrics\Documents\Visual Studio 2010\Projects\FacialFeatureDetect\BiometricsEignefaces\obj\x86\Debug\BiometricsEignefaces.exe
+C:\Users\biometrics\Documents\Visual Studio 2010\Projects\FacialFeatureDetect\BiometricsEignefaces\obj\x86\Debug\BiometricsEignefaces.pdb
+C:\Users\biometrics\Documents\Visual Studio 2010\Projects\FacialFeatureDetect\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.exe
+C:\Users\biometrics\Documents\Visual Studio 2010\Projects\FacialFeatureDetect\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.pdb
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.exe
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.pdb
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.Form1.resources
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\BiometricsEignefaces.Properties.Resources.resources
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\biometrics\Desktop\FirstForkFacialFeatureDetection\CSCI-448-Group-Project\FacialFeatureDetect\obj\x86\Debug\GenerateResource.write.1.tlog
