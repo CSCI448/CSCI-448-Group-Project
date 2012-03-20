@@ -1,0 +1,4 @@
+C:/ASMlibrary/asmlib-opencv/build/test/CMakeFiles/ALL_BUILD.dir
+C:/ASMlibrary/asmlib-opencv/build/CMakeFiles/ZERO_CHECK.dir
+C:/ASMlibrary/asmlib-opencv/build/CMakeFiles/asm.dir
+C:/ASMlibrary/asmlib-opencv/build/test/CMakeFiles/test.dir

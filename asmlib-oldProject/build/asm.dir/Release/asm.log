@@ -1,0 +1,89 @@
+﻿Build started 4/19/2011 2:00:42 PM.
+     1>Project "C:\ASMlibrary\asmlib-opencv\build\asm.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "asm.dir\Release\asm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/OpenCV2.2/include /IC:/OpenCV2.2/include/opencv /IC:/OpenCV2.2/3rdparty/include /IC:/OpenCV2.2/modules/core/include /IC:/OpenCV2.2/modules/imgproc/include /IC:/OpenCV2.2/modules/features2d/include /IC:/OpenCV2.2/modules/gpu/include /IC:/OpenCV2.2/modules/calib3d/include /IC:/OpenCV2.2/modules/objdetect/include /IC:/OpenCV2.2/modules/video/include /IC:/OpenCV2.2/modules/highgui/include /IC:/OpenCV2.2/modules/ml/include /IC:/OpenCV2.2/modules/legacy/include /IC:/OpenCV2.2/modules/contrib/include /IC:/OpenCV2.2/modules/flann/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"asm.dir\Release\\" /Fd"C:/ASMlibrary/asmlib-opencv/build/Release/asm.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\asmmodel.cpp  /Zm1000 
+         asmmodel.cpp
+     1>C:/OpenCV2.2/include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\src\asmmodel.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(47): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(47): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(47): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(47): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\src\asmmodel.cpp(226): warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(227): warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(230): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(231): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(286): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\asmmodel.cpp(311): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\asmmodel.cpp(321): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(323): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(324): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(325): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(407): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(408): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(424): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(425): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(426): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(429): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(430): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(431): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\asmmodel.cpp(501): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\asmmodel.cpp(501): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\ASMlibrary\asmlib-opencv\build\Release\asm.lib" /NOLOGO asm.dir\Release\util.obj
+         asm.dir\Release\modelfile.obj
+         asm.dir\Release\asmmodel.obj
+         asm.dir\Release\shapevec.obj
+         asm.dir\Release\similaritytrans.obj
+         asm.dir\Release\afreader.obj
+         asm.dir\Release\modelimage.obj
+         asm.dir\Release\shapemodel.obj
+         asm.vcxproj -> C:\ASMlibrary\asmlib-opencv\build\Release\asm.lib
+       FinalizeBuildStatus:
+         Deleting file "asm.dir\Release\asm.unsuccessfulbuild".
+         Touching "asm.dir\Release\asm.lastbuildstate".
+     1>Done Building Project "C:\ASMlibrary\asmlib-opencv\build\asm.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.98

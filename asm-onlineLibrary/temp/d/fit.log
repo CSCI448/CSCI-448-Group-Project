@@ -1,0 +1,46 @@
+﻿Build started 3/20/2012 3:58:19 PM.
+     1>Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asm\msvc\fit.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\../temp/d\fit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../libs /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../temp/d/" /Fd".\../temp/d/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demo_fit.cpp ..\src\video_camera.cpp ..\src\vjfacedetect.cpp
+         vjfacedetect.cpp
+     1>c:\opencv2.2\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\tom\documents\visual studio 2010\projects\asm\src\vjfacedetect.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asm\src\vjfacedetect.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asm\src\vjfacedetect.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asm\src\vjfacedetect.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         video_camera.cpp
+     1>c:\opencv2.2\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         demo_fit.cpp
+     1>c:\opencv2.2\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\../temp/d\fit.exe.embed.manifest.res" .\../temp/d\fit_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\tom\Documents\Visual Studio 2010\Projects\asm\msvc\.\../example\fit.exe) does not match the Linker's OutputFile property value (C:\Users\tom\Documents\Visual Studio 2010\Projects\asm\example\fitD.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(fit) does not match the Linker's OutputFile property value (fitD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/fitD.exe" /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:../bin /LIBPATH:C:\OpenCV2.2\lib asmlibraryd.lib opencv_ffmpeg220.lib opencv_imgproc220d.lib opencv_core220d.lib opencv_highgui220d.lib opencv_objdetect220d.lib odbc32.lib odbccp32.lib C:\OpenCV2.2\lib\opencv_core220.lib C:\OpenCV2.2\lib\opencv_highgui220.lib C:\OpenCV2.2\lib\opencv_video220.lib C:\OpenCV2.2\lib\opencv_ml220.lib C:\OpenCV2.2\lib\opencv_legacy220.lib C:\OpenCV2.2\lib\opencv_imgproc220d.lib C:\OpenCV2.2\lib\opencv_objdetect220d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\../temp/d\fit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../example/fitD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\../example\fit.lib" /MACHINE:X86 .\../temp/d\fit.exe.embed.manifest.res
+         .\../temp/d/demo_fit.obj
+         .\../temp/d/video_camera.obj
+         .\../temp/d/vjfacedetect.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\../temp/d\fit.exe.embed.manifest" /manifest .\../temp/d\fit.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\../temp/d\fit.exe.embed.manifest.res" .\../temp/d\fit_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/fitD.exe" /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:../bin /LIBPATH:C:\OpenCV2.2\lib asmlibraryd.lib opencv_ffmpeg220.lib opencv_imgproc220d.lib opencv_core220d.lib opencv_highgui220d.lib opencv_objdetect220d.lib odbc32.lib odbccp32.lib C:\OpenCV2.2\lib\opencv_core220.lib C:\OpenCV2.2\lib\opencv_highgui220.lib C:\OpenCV2.2\lib\opencv_video220.lib C:\OpenCV2.2\lib\opencv_ml220.lib C:\OpenCV2.2\lib\opencv_legacy220.lib C:\OpenCV2.2\lib\opencv_imgproc220d.lib C:\OpenCV2.2\lib\opencv_objdetect220d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\../temp/d\fit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../example/fitD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\../example\fit.lib" /MACHINE:X86 .\../temp/d\fit.exe.embed.manifest.res
+         .\../temp/d/demo_fit.obj
+         .\../temp/d/video_camera.obj
+         .\../temp/d/vjfacedetect.obj
+         fit.vcxproj -> C:\Users\tom\Documents\Visual Studio 2010\Projects\asm\msvc\.\../example\fit.exe
+       FinalizeBuildStatus:
+         Deleting file ".\../temp/d\fit.unsuccessfulbuild".
+         Touching ".\../temp/d\fit.lastbuildstate".
+     1>Done Building Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asm\msvc\fit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.58
