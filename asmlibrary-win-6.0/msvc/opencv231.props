@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\OpenCV2.31\build\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>C:\OpenCV2.31\build\x86\vc10\lib;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>opencv231</_PropertySheetDisplayName>
+    <ExecutablePath>C:\OpenCV2.31\build\x86\vc10\bin;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_core231d.lib;opencv_imgproc231d.lib;opencv_highgui231d.lib;opencv_ml231d.lib;opencv_video231d.lib;opencv_features2d231d.lib;opencv_calib3d231d.lib;opencv_objdetect231d.lib;opencv_contrib231d.lib;opencv_legacy231d.lib;opencv_flann231d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\OpenCV2.31\build\x86\vc10\lib</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OpenCV2.31\build\include;C:\OpenCV2.31\build\include\opencv;</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

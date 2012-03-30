@@ -1,0 +1,3707 @@
+﻿Build started 3/29/2012 3:21:21 PM.
+     1>Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\fit.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "..\temp\d\fit.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "..\temp\d\fit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../libs /IC:\OpenCV2.31\build\include /IC:\OpenCV2.31\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../temp/d/" /Fd".\../temp/d/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demo_fit.cpp ..\src\video_camera.cpp ..\src\vjfacedetect.cpp
+         vjfacedetect.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv2.31\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv2.31\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         video_camera.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv2.31\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv2.31\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+         demo_fit.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv2.31\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv2.31\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(322): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(322): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(336): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(336): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(353): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(353): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(353): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(353): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(358): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(358): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(148): warning C4101: 'im2' : unreferenced local variable
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_fit.cpp(263): warning C4101: 'im2' : unreferenced local variable
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\temp\d\fitD.exe.embed.manifest.res" ..\temp\d\fitD_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/fitD.exe" /VERBOSE /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:../bin /LIBPATH:C:\OpenCV2.31\build\x86\vc10\lib asmlibraryd.lib odbc32.lib odbccp32.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib /MANIFEST /ManifestFile:"..\temp\d\fitD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\example\fitD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\example\fitD.lib" /MACHINE:X86 ..\temp\d\fitD.exe.embed.manifest.res
+         .\../temp/d/demo_fit.obj
+         .\../temp/d/video_camera.obj
+         .\../temp/d/vjfacedetect.obj
+         
+         Starting pass 1
+         Processed /DEFAULTLIB:libcpmtd
+         Processed /DEFAULTLIB:uuid.lib
+         Processed /DEFAULTLIB:LIBCMTD
+         Processed /DEFAULTLIB:OLDNAMES
+         
+         Searching libraries
+             Searching ../libs\asmlibraryd.lib:
+               Found "__declspec(dllimport) public: struct Point2D32f & __thiscall asm_shape::operator[](int)" (__imp_??Aasm_shape@@QAEAAUPoint2D32f@@H@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asmfitting::Fitting2(class asm_shape *,int,struct _IplImage const *,int)" (__imp_?Fitting2@asmfitting@@QAEXPAVasm_shape@@HPBU_IplImage@@H@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asmfitting::Draw(struct _IplImage *,class asm_shape const &)" (__imp_?Draw@asmfitting@@QAEXPAU_IplImage@@ABVasm_shape@@@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: bool __thiscall asmfitting::ASMSeqSearch(class asm_shape &,struct _IplImage const *,int,bool,int)" (__imp_?ASMSeqSearch@asmfitting@@QAE_NAAVasm_shape@@PBU_IplImage@@H_NH@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __imp__InitShapeFromDetBox
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: class asm_shape const __thiscall asmfitting::GetMappingDetShape(void)const " (__imp_?GetMappingDetShape@asmfitting@@QBE?BVasm_shape@@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: double const __thiscall asmfitting::GetMeanFaceWidth(void)const " (__imp_?GetMeanFaceWidth@asmfitting@@QBE?BNXZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asm_shape::~asm_shape(void)" (__imp_??1asm_shape@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asm_shape::asm_shape(void)" (__imp_??0asm_shape@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asmfitting::~asmfitting(void)" (__imp_??1asmfitting@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: bool __thiscall asmfitting::Read(char const *)" (__imp_?Read@asmfitting@@QAE_NPBD@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asmfitting::asmfitting(void)" (__imp_??0asmfitting@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asm_shape::Resize(int)" (__imp_?Resize@asm_shape@@QAEXH@Z)
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: class asm_shape & __thiscall asm_shape::operator=(class asm_shape const &)" (__imp_??4asm_shape@@QAEAAV0@ABV0@@Z)
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __IMPORT_DESCRIPTOR_asmlibraryD
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __NULL_IMPORT_DESCRIPTOR
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found asmlibraryD_NULL_THUNK_DATA
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_core231d.lib:
+               Found _cvResetImageROI
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvSetImageROI
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCopy
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCreateImage
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetSize
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvReleaseImage
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetTickFrequency
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetTickCount
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvFlip
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCreateMemStorage
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvLoad
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvReleaseMemStorage
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetSeqElem
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_core231d
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found opencv_core231d_NULL_THUNK_DATA
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_imgproc231d.lib:
+               Found _cvPyrDown
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_imgproc231d
+                 Referenced in opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+               Found opencv_imgproc231d_NULL_THUNK_DATA
+                 Referenced in opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_highgui231d.lib:
+               Found _cvResizeWindow
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvSaveImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvLoadImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvWaitKey
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvShowImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvNamedWindow
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvGetCaptureProperty
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvQueryFrame
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvSetCaptureProperty
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvCreateFileCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvReleaseCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvGrabFrame
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvCreateCameraCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_highgui231d
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found opencv_highgui231d_NULL_THUNK_DATA
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_ml231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_video231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_features2d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_calib3d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_objdetect231d.lib:
+               Found _cvReleaseHaarClassifierCascade
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found _cvHaarDetectObjects
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_objdetect231d
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found opencv_objdetect231d_NULL_THUNK_DATA
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_contrib231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_legacy231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_flann231d.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\libcpmtd.lib:
+               Found "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded libcpmtd.lib(newaop.obj)
+               Found "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+                 Referenced in demo_fit.obj
+                 Loaded libcpmtd.lib(stdthrow.obj)
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\LIBCMTD.lib:
+               Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(delete2.obj)
+               Found "void __stdcall `eh vector constructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIHP6EX0@Z1@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(ehvecctr.obj)
+               Found _exit
+                 Referenced in demo_fit.obj
+                 Loaded LIBCMTD.lib(crt0dat.obj)
+               Found _printf
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(printf.obj)
+               Found _atoi
+                 Referenced in demo_fit.obj
+                 Loaded LIBCMTD.lib(atox.obj)
+               Found _fprintf
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded LIBCMTD.lib(fprintf.obj)
+               Found ___iob_func
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Loaded LIBCMTD.lib(_file.obj)
+               Found ___security_cookie
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(ehvecctr.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(gs_cookie.obj)
+               Found ___CxxFrameHandler3
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_trnsctrl_.obj)
+               Found __fltused
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_fpinit_.obj)
+               Found @__security_check_cookie@4
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Loaded LIBCMTD.lib(secchk.obj)
+               Found @_RTC_CheckStackVars@8
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_stack_.obj)
+               Found __ftol2_sse
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded LIBCMTD.lib(ftol2.obj)
+               Found __RTC_Shutdown
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_init_.obj)
+               Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(delete2.obj)
+                 Loaded LIBCMTD.lib(dbgdel.obj)
+               Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(ehvecdtr.obj)
+               Found _sqrt
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_sqrt_.obj)
+               Found _mainCRTStartup
+                 Loaded LIBCMTD.lib(crt0.obj)
+               Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Referenced in libcpmtd.lib(newaop.obj)
+                 Loaded LIBCMTD.lib(new.obj)
+               Found __CrtDbgReportW
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in libcpmtd.lib(stdthrow.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(dbgrptw.obj)
+               Found __except_handler4
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(ehvecdtr.obj)
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(ehvecctr.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(chandler4.obj)
+               Found ___xc_a
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(crt0init.obj)
+         Processed /DEFAULTLIB:kernel32.lib
+          Processed /DISALLOWLIB:libcmt.lib
+          Processed /DISALLOWLIB:msvcrt.lib
+          Processed /DISALLOWLIB:msvcrtd.lib
+               Found _atexit
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Loaded LIBCMTD.lib(onexit.obj)
+               Found __RTC_Terminate
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(_initsect_.obj)
+               Found __initp_misc_cfltcvt_tab
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(cmiscdat.obj)
+               Found __IsNonwritableInCurrentImage
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(chandler4.obj)
+                 Loaded LIBCMTD.lib(pesect.obj)
+               Found __NMSG_WRITE
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(crt0msg.obj)
+               Found ___initialmbcinfo
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(mbctype.obj)
+               Found __encoded_null
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(tidtable.obj)
+               Found __free_dbg
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dbgheap.obj)
+               Found __lock
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(mlock.obj)
+               Found __initp_eh_hooks
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(hooks.obj)
+               Found __initp_misc_winsig
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(winsig.obj)
+               Found __initp_misc_rand_s
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(rand_s.obj)
+               Found __initp_misc_purevirt
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(inithelp.obj)
+               Found __initp_misc_invarg
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(invarg.obj)
+               Found __initp_heap_handler
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(handler.obj)
+               Found __errno
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dosmap.obj)
+               Found __ftbuf
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(_sftbuf.obj)
+               Found __output_l
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(output.obj)
+               Found __vprintf_l
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Loaded LIBCMTD.lib(vprintf.obj)
+               Found _strtol
+                 Referenced in LIBCMTD.lib(atox.obj)
+                 Loaded LIBCMTD.lib(strtol.obj)
+               Found __strtoi64
+                 Referenced in LIBCMTD.lib(atox.obj)
+                 Loaded LIBCMTD.lib(strtoq.obj)
+               Found ___badioinfo
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(ioinit.obj)
+               Found __fileno
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(_sftbuf.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(fileno.obj)
+               Found __vfprintf_l
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(vfprintf.obj)
+               Found __fcloseall
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Loaded LIBCMTD.lib(closeall.obj)
+               Found __flushall
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Loaded LIBCMTD.lib(fflush.obj)
+               Found ___InternalCxxFrameHandler
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Loaded LIBCMTD.lib(frame.obj)
+               Found __CallSettingFrame@12
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(lowhelpr.obj)
+               Found __setdefaultprecision
+                 Referenced in LIBCMTD.lib(_fpinit_.obj)
+                 Loaded LIBCMTD.lib(fp8.obj)
+               Found __forcdecpt_l
+                 Referenced in LIBCMTD.lib(_fpinit_.obj)
+                 Loaded LIBCMTD.lib(cvt.obj)
+               Found ___report_gsfailure
+                 Referenced in LIBCMTD.lib(secchk.obj)
+                 Loaded LIBCMTD.lib(gs_report.obj)
+               Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Referenced in LIBCMTD.lib(_stack_.obj)
+                 Loaded LIBCMTD.lib(_error_.obj)
+               Found ___sse2_available
+                 Referenced in LIBCMTD.lib(ftol2.obj)
+                 Loaded LIBCMTD.lib(cpu_disp.obj)
+               Found __RTC_SetErrorFuncW
+                 Referenced in LIBCMTD.lib(_init_.obj)
+                 Loaded LIBCMTD.lib(_userapi_.obj)
+               Found __CRT_RTC_INITW
+                 Referenced in LIBCMTD.lib(_init_.obj)
+                 Loaded LIBCMTD.lib(chkesp.obj)
+               Found __indefinite
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_87disp_.obj)
+               Found __startOneArgErrorHandling
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_genexcep_.obj)
+               Found __fload_withFB
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_common_.obj)
+               Found ___CxxSetUnhandledExceptionFilter
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(unhandld.obj)
+               Found ___security_init_cookie
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(gs_support.obj)
+               Found __XcptFilter
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(winxfltr.obj)
+               Found __setenvp
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(stdenvp.obj)
+               Found __setargv
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(stdargv.obj)
+               Found ___crtGetEnvironmentStringsA
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(a_env.obj)
+               Found __heap_init
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(heapinit.obj)
+               Found _malloc
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Loaded LIBCMTD.lib(dbgmalloc.obj)
+               Found __CxxThrowException@8
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(throw.obj)
+               Found "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(typinfo.obj)
+               Found "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(stdexcpt.obj)
+               Found __pReportHookListW
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dbgrptt.obj)
+               Found ___crtMessageBoxW
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(crtmboxw.obj)
+               Found __snwprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(swprintf.obj)
+               Found _memcpy_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(memcpy_s.obj)
+               Found _wcslen
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcslen.obj)
+               Found _wcscpy_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcscpy_s.obj)
+               Found __chkstk
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(chkstk.obj)
+               Found @_EH4_TransferToHandler@8
+                 Referenced in LIBCMTD.lib(chandler4.obj)
+                 Loaded LIBCMTD.lib(exsup4.obj)
+               Found __fptrap
+                 Referenced in LIBCMTD.lib(cmiscdat.obj)
+                 Loaded LIBCMTD.lib(crt0fp.obj)
+               Found __set_error_mode
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(errmode.obj)
+               Found _wcscat_s
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcscat_s.obj)
+               Found _wcsncpy_s
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(wcsncpy_s.obj)
+               Found _strlen
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(stdenvp.obj)
+                 Loaded LIBCMTD.lib(strlen.obj)
+               Found ___globallocalestatus
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Loaded LIBCMTD.lib(glstatus.obj)
+               Found ___updatetlocinfo
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Loaded LIBCMTD.lib(localref.obj)
+               Found ___ptlocinfo
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(nlsdata2.obj)
+               Found ___crtLCMapStringA
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded LIBCMTD.lib(a_map.obj)
+               Found ___crtGetStringTypeA
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded LIBCMTD.lib(a_str.obj)
+               Found __newmode
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(dbgmalloc.obj)
+                 Loaded LIBCMTD.lib(_newmode.obj)
+               Found _memset
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(memcpy_s.obj)
+                 Referenced in LIBCMTD.lib(wcscpy_s.obj)
+                 Referenced in LIBCMTD.lib(wcscat_s.obj)
+                 Referenced in LIBCMTD.lib(wcsncpy_s.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(memset.obj)
+               Found __heap_alloc_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(malloc.obj)
+               Found __CrtDbgReport
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(chkesp.obj)
+                 Loaded LIBCMTD.lib(dbgrpt.obj)
+               Found __pfnAllocHook
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(dbghook.obj)
+               Found __expand_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(expand.obj)
+               Found __realloc_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(realloc.obj)
+               Found __free_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Loaded LIBCMTD.lib(free.obj)
+               Found __heapchk
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(heapchk.obj)
+               Found _sprintf_s
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(sprintf.obj)
+               Found __chvalidator_l
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(isctype.obj)
+               Found _memcpy
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(memcpy_s.obj)
+                 Loaded LIBCMTD.lib(memcpy.obj)
+               Found _abort
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded LIBCMTD.lib(abort.obj)
+               Found _strncpy_s
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded LIBCMTD.lib(strncpy_s.obj)
+               Found ___crtGetLocaleInfoA
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded LIBCMTD.lib(a_loc.obj)
+               Found __isatty
+                 Referenced in LIBCMTD.lib(_sftbuf.obj)
+                 Loaded LIBCMTD.lib(isatty.obj)
+               Found _wctomb_s
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(wctomb.obj)
+               Found __isleadbyte_l
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(isctype.obj)
+                 Loaded LIBCMTD.lib(_wctype.obj)
+               Found __aulldiv
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(ulldiv.obj)
+               Found __aullrem
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(ullrem.obj)
+               Found __flsbuf
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Referenced in LIBCMTD.lib(sprintf.obj)
+                 Loaded LIBCMTD.lib(_flsbuf.obj)
+               Found __output_s_l
+                 Referenced in LIBCMTD.lib(vprintf.obj)
+                 Referenced in LIBCMTD.lib(vfprintf.obj)
+                 Loaded LIBCMTD.lib(outputs.obj)
+               Found __output_p_l
+                 Referenced in LIBCMTD.lib(vprintf.obj)
+                 Referenced in LIBCMTD.lib(vfprintf.obj)
+                 Loaded LIBCMTD.lib(outputp.obj)
+               Found ___locale_changed
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(isctype.obj)
+                 Loaded LIBCMTD.lib(setlocal.obj)
+               Found __allmul
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(llmul.obj)
+               Found _fclose
+                 Referenced in LIBCMTD.lib(closeall.obj)
+                 Loaded LIBCMTD.lib(fclose.obj)
+               Found __commit
+                 Referenced in LIBCMTD.lib(fflush.obj)
+                 Loaded LIBCMTD.lib(commit.obj)
+               Found __write
+                 Referenced in LIBCMTD.lib(fflush.obj)
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(write.obj)
+               Found "int __cdecl _ValidateRead(void const *,unsigned int)" (?_ValidateRead@@YAHPBXI@Z)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(validate.obj)
+               Found _strcmp
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Referenced in LIBCMTD.lib(typinfo.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcmp.obj)
+               Found _memmove
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(memmove.obj)
+               Found __NLG_Notify
+                 Referenced in LIBCMTD.lib(lowhelpr.obj)
+                 Referenced in LIBCMTD.lib(exsup4.obj)
+                 Loaded LIBCMTD.lib(exsup.obj)
+               Found __controlfp_s
+                 Referenced in LIBCMTD.lib(fp8.obj)
+                 Loaded LIBCMTD.lib(_contrlfp_.obj)
+               Found _isdigit
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_ctype.obj)
+               Found _tolower
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(tolower.obj)
+               Found __atoflt_l
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(atodbl.obj)
+               Found __fptostr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_fptostr.obj)
+               Found __fltout2
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_cfout_.obj)
+               Found __outputformat
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(outputformat.obj)
+               Found _strcpy_s
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(_cfout_.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(stdenvp.obj)
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(strcpy_s.obj)
+               Found __allrem
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(llrem.obj)
+               Found __alldiv
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(lldiv.obj)
+               Found __allshl
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(llshl.obj)
+               Found __aullshr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(ullshr.obj)
+               Found _strrchr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(strrchr.obj)
+               Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded LIBCMTD.lib(_pdblkup_.obj)
+               Found __87except
+                 Referenced in LIBCMTD.lib(_genexcep_.obj)
+                 Loaded LIBCMTD.lib(_87except_.obj)
+               Found __ismbblead
+                 Referenced in LIBCMTD.lib(stdargv.obj)
+                 Loaded LIBCMTD.lib(ismbbyte.obj)
+               Found "private: static char const * __cdecl type_info::_Name_base(class type_info const *,struct __type_info_node *)" (?_Name_base@type_info@@CAPBDPBV1@PAU__type_info_node@@@Z)
+                 Referenced in LIBCMTD.lib(typinfo.obj)
+                 Loaded LIBCMTD.lib(typname.obj)
+               Found _free
+                 Referenced in LIBCMTD.lib(typname.obj)
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Loaded LIBCMTD.lib(dbgfree.obj)
+               Found _mbstowcs_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(mbstowcs.obj)
+               Found _strcat_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcat_s.obj)
+               Found __vsnprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(vsnprnc.obj)
+               Found __itoa_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(xtoas.obj)
+               Found _wcstombs_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcstombs.obj)
+               Found __vsnwprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(vswprnc.obj)
+               Found __itow_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(xtows.obj)
+               Found __woutput_l
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Loaded LIBCMTD.lib(woutput.obj)
+               Found ___vswprintf_l
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Loaded LIBCMTD.lib(vswprint.obj)
+               Found ___free_lc_time
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(inittime.obj)
+               Found ___free_lconv_num
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(initnum.obj)
+               Found ___free_lconv_mon
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(initmon.obj)
+               Found ___lconv_c
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(nlsdata2.obj)
+                 Referenced in LIBCMTD.lib(initnum.obj)
+                 Referenced in LIBCMTD.lib(initmon.obj)
+                 Loaded LIBCMTD.lib(lconv.obj)
+               Found ___newcumap
+                 Referenced in LIBCMTD.lib(nlsdata2.obj)
+                 Loaded LIBCMTD.lib(ctype.obj)
+               Found __VEC_memzero
+                 Referenced in LIBCMTD.lib(memset.obj)
+                 Loaded LIBCMTD.lib(p4_memset.obj)
+               Found ___crtMessageBoxA
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Loaded LIBCMTD.lib(crtmbox.obj)
+               Found __vsprintf_l
+                 Referenced in LIBCMTD.lib(sprintf.obj)
+                 Loaded LIBCMTD.lib(vsprintf.obj)
+               Found __VEC_memcpy
+                 Referenced in LIBCMTD.lib(memcpy.obj)
+                 Referenced in LIBCMTD.lib(memmove.obj)
+                 Loaded LIBCMTD.lib(p4_memcpy.obj)
+               Found ____mb_cur_max_func
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Loaded LIBCMTD.lib(initctyp.obj)
+               Found _iswctype
+                 Referenced in LIBCMTD.lib(_wctype.obj)
+                 Loaded LIBCMTD.lib(iswctype.obj)
+               Found __lseeki64
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(lseeki64.obj)
+               Found __getbuf
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(_getbuf.obj)
+               Found ___init_collate
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(initcoll.obj)
+               Found ___mb_cur_max
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(nlsdata1.obj)
+               Found _strcspn
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcspn.obj)
+               Found _strncmp
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strncmp.obj)
+               Found _strpbrk
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strpbrk.obj)
+               Found _memcmp
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(memcmp.obj)
+               Found ___get_qualified_locale
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(getqloc.obj)
+               Found __close
+                 Referenced in LIBCMTD.lib(fclose.obj)
+                 Loaded LIBCMTD.lib(close.obj)
+               Found __freebuf
+                 Referenced in LIBCMTD.lib(fclose.obj)
+                 Loaded LIBCMTD.lib(_freebuf.obj)
+               Found __unlock_fhandle
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Loaded LIBCMTD.lib(osfinfo.obj)
+               Found __putwch_nolock
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded LIBCMTD.lib(putwch.obj)
+               Found _mbtowc
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded LIBCMTD.lib(mbtowc.obj)
+               Found __control87
+                 Referenced in LIBCMTD.lib(_contrlfp_.obj)
+                 Loaded LIBCMTD.lib(_ieee87_.obj)
+               Found __ld12tod
+                 Referenced in LIBCMTD.lib(atodbl.obj)
+                 Loaded LIBCMTD.lib(_intrncvt_.obj)
+               Found ___strgtold12_l
+                 Referenced in LIBCMTD.lib(atodbl.obj)
+                 Loaded LIBCMTD.lib(_strgtold_.obj)
+               Found _$I10_OUTPUT
+                 Referenced in LIBCMTD.lib(_cfout_.obj)
+                 Loaded LIBCMTD.lib(_x10fout_.obj)
+               Found __set_errno_from_matherr
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Loaded LIBCMTD.lib(_fpexcept_.obj)
+               Found __matherr
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_matherr_.obj)
+               Found __ctrlfp
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_fpctrl_.obj)
+               Found ___unDName
+                 Referenced in LIBCMTD.lib(typname.obj)
+                 Loaded LIBCMTD.lib(undname.obj)
+               Found __woutput_s_l
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Loaded LIBCMTD.lib(woutputs.obj)
+               Found __woutput_p_l
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Referenced in LIBCMTD.lib(vswprint.obj)
+                 Loaded LIBCMTD.lib(woutputp.obj)
+               Found __fputwc_nolock
+                 Referenced in LIBCMTD.lib(woutput.obj)
+                 Referenced in LIBCMTD.lib(woutputs.obj)
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Loaded LIBCMTD.lib(fputwc.obj)
+               Found __stricmp
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded LIBCMTD.lib(stricmp.obj)
+               Found __strnicmp
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded LIBCMTD.lib(strnicmp.obj)
+               Found ___initconout
+                 Referenced in LIBCMTD.lib(putwch.obj)
+                 Loaded LIBCMTD.lib(initcon.obj)
+               Found ___mtold12
+                 Referenced in LIBCMTD.lib(_strgtold_.obj)
+                 Loaded LIBCMTD.lib(_mantold_.obj)
+               Found __pow10neg
+                 Referenced in LIBCMTD.lib(_strgtold_.obj)
+                 Referenced in LIBCMTD.lib(_x10fout_.obj)
+                 Loaded LIBCMTD.lib(_constpow_.obj)
+               Found __decomp
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_util_.obj)
+               Found __purecall
+                 Referenced in LIBCMTD.lib(undname.obj)
+                 Loaded LIBCMTD.lib(purevirt.obj)
+               Found _wcstol
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Loaded LIBCMTD.lib(wcstol.obj)
+               Found __flswbuf
+                 Referenced in LIBCMTD.lib(fputwc.obj)
+                 Loaded LIBCMTD.lib(_flswbuf.obj)
+               Found ___ascii_strnicmp
+                 Referenced in LIBCMTD.lib(strnicmp.obj)
+                 Loaded LIBCMTD.lib(_strnicm.obj)
+               Found __wchartodigit
+                 Referenced in LIBCMTD.lib(wcstol.obj)
+                 Loaded LIBCMTD.lib(wchtodig.obj)
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+               Found __imp__InterlockedIncrement@4
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InterlockedDecrement@4
+                 Referenced in LIBCMTD.lib(initmon.obj)
+                 Referenced in LIBCMTD.lib(initctyp.obj)
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(inittime.obj)
+                 Referenced in LIBCMTD.lib(initnum.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DecodePointer@4
+                 Referenced in LIBCMTD.lib(purevirt.obj)
+                 Referenced in LIBCMTD.lib(woutput.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(woutputs.obj)
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(outputs.obj)
+                 Referenced in LIBCMTD.lib(outputp.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(handler.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(onexit.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcAddress@8
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleHandleW@4
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__ExitProcess@4
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EnterCriticalSection@4
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LeaveCriticalSection@4
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found _RtlUnwind@16
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Referenced in LIBCMTD.lib(exsup4.obj)
+                 Referenced in LIBCMTD.lib(exsup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCommandLineA@0
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapSetInformation@16
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameW@12
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EncodePointer@4
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(purevirt.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(handler.obj)
+                 Referenced in LIBCMTD.lib(onexit.obj)
+                 Referenced in LIBCMTD.lib(cmiscdat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WriteFile@20
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStdHandle@4
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetACP@0
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetOEMCP@0
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCPInfo@8
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(initctyp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsValidCodePage@4
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsAlloc@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsGetValue@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsSetValue@8
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThreadId@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsFree@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetLastError@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLastError@0
+                 Referenced in LIBCMTD.lib(wcstombs.obj)
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(mbstowcs.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Referenced in LIBCMTD.lib(free.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThread@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapValidate@12
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(heapchk.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsBadReadPtr@8
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InitializeCriticalSectionAndSpinCount@8
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DeleteCriticalSection@4
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(closeall.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FatalAppExitA@8
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetConsoleCtrlHandler@8
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeLibrary@4
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InterlockedExchange@8
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LoadLibraryW@4
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLocaleInfoW@16
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TerminateProcess@8
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentProcess@0
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__UnhandledExceptionFilter@4
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetUnhandledExceptionFilter@4
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Referenced in LIBCMTD.lib(unhandld.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsDebuggerPresent@0
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetHandleCount@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetFileType@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStartupInfoW@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WideCharToMultiByte@32
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(wcstombs.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__MultiByteToWideChar@24
+                 Referenced in LIBCMTD.lib(mbtowc.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(mbstowcs.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__RaiseException@16
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(throw.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__lstrlenA@4
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsProcessorFeaturePresent@4
+                 Referenced in LIBCMTD.lib(cpu_disp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__QueryPerformanceCounter@4
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetTickCount@0
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentProcessId@0
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetSystemTimeAsFileTime@4
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameA@12
+                 Referenced in LIBCMTD.lib(stdargv.obj)
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeEnvironmentStringsW@4
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetEnvironmentStringsW@0
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapCreate@12
+                 Referenced in LIBCMTD.lib(heapinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapDestroy@4
+                 Referenced in LIBCMTD.lib(heapinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__OutputDebugStringA@4
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WriteConsoleW@20
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(putwch.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__OutputDebugStringW@4
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LCMapStringW@24
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStringTypeW@16
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(iswctype.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapAlloc@12
+                 Referenced in LIBCMTD.lib(malloc.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapReAlloc@16
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapSize@12
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapQueryInformation@20
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapFree@12
+                 Referenced in LIBCMTD.lib(free.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FlushFileBuffers@4
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetConsoleCP@0
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetConsoleMode@8
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcessHeap@0
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__VirtualQuery@12
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetFilePointer@16
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLocaleInfoA@16
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsValidLocale@8
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EnumSystemLocalesA@8
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetUserDefaultLCID@0
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__CloseHandle@4
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Referenced in LIBCMTD.lib(initcon.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetStdHandle@8
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__CreateFileW@28
+                 Referenced in LIBCMTD.lib(initcon.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __IMPORT_DESCRIPTOR_KERNEL32
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found KERNEL32_NULL_THUNK_DATA
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+             Searching ../libs\asmlibraryd.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_core231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_imgproc231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_highgui231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_ml231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_video231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_features2d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_calib3d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_objdetect231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_contrib231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_legacy231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_flann231d.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\libcpmtd.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\LIBCMTD.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+         
+         Finished searching libraries
+         
+         Finished pass 1
+         
+         Generating non-SAFESEH image.
+         
+         Invoking CVTRES.EXE:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\tom\AppData\Local\Temp\lnk2523.tmp"
+          /readonly
+          "..\temp\d\fitD.exe.embed.manifest.res"
+         Microsoft (R) Windows Resource To Object Converter Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:2
+         Starting pass 2
+              fitD.exe.embed.manifest.res
+              vjfacedetect.obj
+              video_camera.obj
+              demo_fit.obj
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              libcpmtd.lib(newaop.obj)
+              libcpmtd.lib(stdthrow.obj)
+              LIBCMTD.lib(chandler4.obj)
+              LIBCMTD.lib(chkesp.obj)
+              LIBCMTD.lib(exsup.obj)
+              LIBCMTD.lib(exsup4.obj)
+              LIBCMTD.lib(p4_memcpy.obj)
+              LIBCMTD.lib(memcmp.obj)
+              LIBCMTD.lib(p4_memset.obj)
+              LIBCMTD.lib(_fptostr.obj)
+              LIBCMTD.lib(atox.obj)
+              LIBCMTD.lib(wchtodig.obj)
+              LIBCMTD.lib(xtoas.obj)
+              LIBCMTD.lib(xtows.obj)
+              LIBCMTD.lib(dosmap.obj)
+              LIBCMTD.lib(expand.obj)
+              LIBCMTD.lib(free.obj)
+              LIBCMTD.lib(heapchk.obj)
+              LIBCMTD.lib(heapinit.obj)
+              LIBCMTD.lib(malloc.obj)
+              LIBCMTD.lib(realloc.obj)
+              LIBCMTD.lib(_newmode.obj)
+              LIBCMTD.lib(close.obj)
+              LIBCMTD.lib(commit.obj)
+              LIBCMTD.lib(initcon.obj)
+              LIBCMTD.lib(ioinit.obj)
+              LIBCMTD.lib(isatty.obj)
+              LIBCMTD.lib(lseeki64.obj)
+              LIBCMTD.lib(osfinfo.obj)
+              LIBCMTD.lib(write.obj)
+              LIBCMTD.lib(putwch.obj)
+              LIBCMTD.lib(secchk.obj)
+              LIBCMTD.lib(a_env.obj)
+              LIBCMTD.lib(abort.obj)
+              LIBCMTD.lib(crtmbox.obj)
+              LIBCMTD.lib(crtmboxw.obj)
+              LIBCMTD.lib(ctype.obj)
+              LIBCMTD.lib(dbghook.obj)
+              LIBCMTD.lib(dbgrpt.obj)
+              LIBCMTD.lib(dbgrptt.obj)
+              LIBCMTD.lib(errmode.obj)
+              LIBCMTD.lib(getqloc.obj)
+              LIBCMTD.lib(glstatus.obj)
+              LIBCMTD.lib(gs_cookie.obj)
+              LIBCMTD.lib(gs_report.obj)
+              LIBCMTD.lib(gs_support.obj)
+              LIBCMTD.lib(initcoll.obj)
+              LIBCMTD.lib(initctyp.obj)
+              LIBCMTD.lib(inithelp.obj)
+              LIBCMTD.lib(initmon.obj)
+              LIBCMTD.lib(initnum.obj)
+              LIBCMTD.lib(inittime.obj)
+              LIBCMTD.lib(lconv.obj)
+              LIBCMTD.lib(localref.obj)
+              LIBCMTD.lib(onexit.obj)
+              LIBCMTD.lib(nlsdata1.obj)
+              LIBCMTD.lib(nlsdata2.obj)
+              LIBCMTD.lib(pesect.obj)
+              LIBCMTD.lib(purevirt.obj)
+              LIBCMTD.lib(rand_s.obj)
+              LIBCMTD.lib(setlocal.obj)
+              LIBCMTD.lib(winsig.obj)
+              LIBCMTD.lib(winxfltr.obj)
+              LIBCMTD.lib(cmiscdat.obj)
+              LIBCMTD.lib(fileno.obj)
+              LIBCMTD.lib(fputwc.obj)
+              LIBCMTD.lib(_file.obj)
+              LIBCMTD.lib(_flsbuf.obj)
+              LIBCMTD.lib(_flswbuf.obj)
+              LIBCMTD.lib(_freebuf.obj)
+              LIBCMTD.lib(_getbuf.obj)
+              LIBCMTD.lib(_sftbuf.obj)
+              LIBCMTD.lib(closeall.obj)
+              LIBCMTD.lib(fclose.obj)
+              LIBCMTD.lib(fflush.obj)
+              LIBCMTD.lib(fprintf.obj)
+              LIBCMTD.lib(outputformat.obj)
+              LIBCMTD.lib(printf.obj)
+              LIBCMTD.lib(sprintf.obj)
+              LIBCMTD.lib(swprintf.obj)
+              LIBCMTD.lib(vprintf.obj)
+              LIBCMTD.lib(vfprintf.obj)
+              LIBCMTD.lib(vsprintf.obj)
+              LIBCMTD.lib(vsnprnc.obj)
+              LIBCMTD.lib(vswprint.obj)
+              LIBCMTD.lib(vswprnc.obj)
+              LIBCMTD.lib(memcpy_s.obj)
+              LIBCMTD.lib(strncmp.obj)
+              LIBCMTD.lib(strcat_s.obj)
+              LIBCMTD.lib(strcpy_s.obj)
+              LIBCMTD.lib(strncpy_s.obj)
+              LIBCMTD.lib(wcscat_s.obj)
+              LIBCMTD.lib(wcscpy_s.obj)
+              LIBCMTD.lib(wcslen.obj)
+              LIBCMTD.lib(wcsncpy_s.obj)
+              LIBCMTD.lib(memcpy.obj)
+              LIBCMTD.lib(memmove.obj)
+              LIBCMTD.lib(memset.obj)
+              LIBCMTD.lib(strcmp.obj)
+              LIBCMTD.lib(strcspn.obj)
+              LIBCMTD.lib(strlen.obj)
+              LIBCMTD.lib(_strnicm.obj)
+              LIBCMTD.lib(strpbrk.obj)
+              LIBCMTD.lib(strrchr.obj)
+              LIBCMTD.lib(lldiv.obj)
+              LIBCMTD.lib(llmul.obj)
+              LIBCMTD.lib(llrem.obj)
+              LIBCMTD.lib(llshl.obj)
+              LIBCMTD.lib(ulldiv.obj)
+              LIBCMTD.lib(ullrem.obj)
+              LIBCMTD.lib(ullshr.obj)
+              LIBCMTD.lib(handler.obj)
+              LIBCMTD.lib(delete2.obj)
+              LIBCMTD.lib(new.obj)
+              LIBCMTD.lib(dbgdel.obj)
+              LIBCMTD.lib(_ctype.obj)
+              LIBCMTD.lib(_wctype.obj)
+              LIBCMTD.lib(atodbl.obj)
+              LIBCMTD.lib(iswctype.obj)
+              LIBCMTD.lib(isctype.obj)
+              LIBCMTD.lib(mbstowcs.obj)
+              LIBCMTD.lib(mbtowc.obj)
+              LIBCMTD.lib(strtol.obj)
+              LIBCMTD.lib(strtoq.obj)
+              LIBCMTD.lib(tolower.obj)
+              LIBCMTD.lib(wcstol.obj)
+              LIBCMTD.lib(wcstombs.obj)
+              LIBCMTD.lib(wctomb.obj)
+              LIBCMTD.lib(ismbbyte.obj)
+              LIBCMTD.lib(mbctype.obj)
+              LIBCMTD.lib(a_loc.obj)
+              LIBCMTD.lib(a_map.obj)
+              LIBCMTD.lib(a_str.obj)
+              LIBCMTD.lib(dbgfree.obj)
+              LIBCMTD.lib(dbgheap.obj)
+              LIBCMTD.lib(dbgmalloc.obj)
+              LIBCMTD.lib(dbgrptw.obj)
+              LIBCMTD.lib(invarg.obj)
+              LIBCMTD.lib(output.obj)
+              LIBCMTD.lib(outputp.obj)
+              LIBCMTD.lib(outputs.obj)
+              LIBCMTD.lib(woutput.obj)
+              LIBCMTD.lib(woutputp.obj)
+              LIBCMTD.lib(woutputs.obj)
+              LIBCMTD.lib(stricmp.obj)
+              LIBCMTD.lib(strnicmp.obj)
+              LIBCMTD.lib(tidtable.obj)
+              LIBCMTD.lib(stdenvp.obj)
+              LIBCMTD.lib(stdargv.obj)
+              LIBCMTD.lib(mlock.obj)
+              LIBCMTD.lib(crt0msg.obj)
+              LIBCMTD.lib(crt0init.obj)
+              LIBCMTD.lib(crt0fp.obj)
+              LIBCMTD.lib(crt0dat.obj)
+              LIBCMTD.lib(crt0.obj)
+              LIBCMTD.lib(fp8.obj)
+              LIBCMTD.lib(chkstk.obj)
+              LIBCMTD.lib(_x10fout_.obj)
+              LIBCMTD.lib(_strgtold_.obj)
+              LIBCMTD.lib(_mantold_.obj)
+              LIBCMTD.lib(_intrncvt_.obj)
+              LIBCMTD.lib(_fpinit_.obj)
+              LIBCMTD.lib(_constpow_.obj)
+              LIBCMTD.lib(_cfout_.obj)
+              LIBCMTD.lib(cvt.obj)
+              LIBCMTD.lib(_sqrt_.obj)
+              LIBCMTD.lib(_common_.obj)
+              LIBCMTD.lib(_genexcep_.obj)
+              LIBCMTD.lib(_87disp_.obj)
+              LIBCMTD.lib(_ieee87_.obj)
+              LIBCMTD.lib(_fpctrl_.obj)
+              LIBCMTD.lib(_87except_.obj)
+              LIBCMTD.lib(_matherr_.obj)
+              LIBCMTD.lib(_util_.obj)
+              LIBCMTD.lib(_fpexcept_.obj)
+              LIBCMTD.lib(_contrlfp_.obj)
+              LIBCMTD.lib(ftol2.obj)
+              LIBCMTD.lib(cpu_disp.obj)
+              LIBCMTD.lib(_trnsctrl_.obj)
+              LIBCMTD.lib(lowhelpr.obj)
+              LIBCMTD.lib(undname.obj)
+              LIBCMTD.lib(ehvecdtr.obj)
+              LIBCMTD.lib(ehvecctr.obj)
+              LIBCMTD.lib(unhandld.obj)
+              LIBCMTD.lib(validate.obj)
+              LIBCMTD.lib(typname.obj)
+              LIBCMTD.lib(typinfo.obj)
+              LIBCMTD.lib(stdexcpt.obj)
+              LIBCMTD.lib(throw.obj)
+              LIBCMTD.lib(hooks.obj)
+              LIBCMTD.lib(frame.obj)
+              LIBCMTD.lib(_userapi_.obj)
+              LIBCMTD.lib(_stack_.obj)
+              LIBCMTD.lib(_pdblkup_.obj)
+              LIBCMTD.lib(_initsect_.obj)
+              LIBCMTD.lib(_init_.obj)
+              LIBCMTD.lib(_error_.obj)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+         Finished pass 2
+       Manifest:
+         Deleting file "..\temp\d\fitD.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\temp\d\fitD.exe.embed.manifest" /manifest ..\temp\d\fitD.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\temp\d\fitD.exe.embed.manifest.res" ..\temp\d\fitD_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/fitD.exe" /VERBOSE /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:../bin /LIBPATH:C:\OpenCV2.31\build\x86\vc10\lib asmlibraryd.lib odbc32.lib odbccp32.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib /MANIFEST /ManifestFile:"..\temp\d\fitD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\example\fitD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\example\fitD.lib" /MACHINE:X86 ..\temp\d\fitD.exe.embed.manifest.res
+         .\../temp/d/demo_fit.obj
+         .\../temp/d/video_camera.obj
+         .\../temp/d/vjfacedetect.obj
+         
+         Invoking CVTRES.EXE:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\tom\AppData\Local\Temp\lnk28BB.tmp"
+          /readonly
+          "..\temp\d\fitD.exe.embed.manifest.res"
+         Microsoft (R) Windows Resource To Object Converter Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:406
+         Generating non-SAFESEH image.
+         
+         Invoking LINK.EXE:
+          /ERRORREPORT:PROMPT @C:\Users\tom\AppData\Local\Temp\441d85857c2a4452a8b8304aca411173.rsp
+          /incremental
+          /nologo
+          /fullbuild
+         
+         Starting pass 1
+         Processed /DEFAULTLIB:libcpmtd
+         Processed /DEFAULTLIB:uuid.lib
+         Processed /DEFAULTLIB:LIBCMTD
+         Processed /DEFAULTLIB:OLDNAMES
+         
+         Searching libraries
+             Searching ../libs\asmlibraryd.lib:
+               Found "__declspec(dllimport) public: struct Point2D32f & __thiscall asm_shape::operator[](int)" (__imp_??Aasm_shape@@QAEAAUPoint2D32f@@H@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asmfitting::Fitting2(class asm_shape *,int,struct _IplImage const *,int)" (__imp_?Fitting2@asmfitting@@QAEXPAVasm_shape@@HPBU_IplImage@@H@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asmfitting::Draw(struct _IplImage *,class asm_shape const &)" (__imp_?Draw@asmfitting@@QAEXPAU_IplImage@@ABVasm_shape@@@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: bool __thiscall asmfitting::ASMSeqSearch(class asm_shape &,struct _IplImage const *,int,bool,int)" (__imp_?ASMSeqSearch@asmfitting@@QAE_NAAVasm_shape@@PBU_IplImage@@H_NH@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __imp__InitShapeFromDetBox
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: class asm_shape const __thiscall asmfitting::GetMappingDetShape(void)const " (__imp_?GetMappingDetShape@asmfitting@@QBE?BVasm_shape@@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: double const __thiscall asmfitting::GetMeanFaceWidth(void)const " (__imp_?GetMeanFaceWidth@asmfitting@@QBE?BNXZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asm_shape::~asm_shape(void)" (__imp_??1asm_shape@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asm_shape::asm_shape(void)" (__imp_??0asm_shape@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asmfitting::~asmfitting(void)" (__imp_??1asmfitting@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: bool __thiscall asmfitting::Read(char const *)" (__imp_?Read@asmfitting@@QAE_NPBD@Z)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: __thiscall asmfitting::asmfitting(void)" (__imp_??0asmfitting@@QAE@XZ)
+                 Referenced in demo_fit.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: void __thiscall asm_shape::Resize(int)" (__imp_?Resize@asm_shape@@QAEXH@Z)
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found "__declspec(dllimport) public: class asm_shape & __thiscall asm_shape::operator=(class asm_shape const &)" (__imp_??4asm_shape@@QAEAAV0@ABV0@@Z)
+                 Referenced in vjfacedetect.obj
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __IMPORT_DESCRIPTOR_asmlibraryD
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found __NULL_IMPORT_DESCRIPTOR
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+               Found asmlibraryD_NULL_THUNK_DATA
+                 Referenced in asmlibraryd.lib(asmlibraryD.dll)
+                 Loaded asmlibraryd.lib(asmlibraryD.dll)
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_core231d.lib:
+               Found _cvResetImageROI
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvSetImageROI
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCopy
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCreateImage
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetSize
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvReleaseImage
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetTickFrequency
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetTickCount
+                 Referenced in demo_fit.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvFlip
+                 Referenced in video_camera.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvCreateMemStorage
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvLoad
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvReleaseMemStorage
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found _cvGetSeqElem
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_core231d
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+               Found opencv_core231d_NULL_THUNK_DATA
+                 Referenced in opencv_core231d.lib(opencv_core231d.dll)
+                 Loaded opencv_core231d.lib(opencv_core231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_imgproc231d.lib:
+               Found _cvPyrDown
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_imgproc231d
+                 Referenced in opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+               Found opencv_imgproc231d_NULL_THUNK_DATA
+                 Referenced in opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+                 Loaded opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_highgui231d.lib:
+               Found _cvResizeWindow
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvSaveImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvLoadImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvWaitKey
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvShowImage
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvNamedWindow
+                 Referenced in demo_fit.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvGetCaptureProperty
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvQueryFrame
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvSetCaptureProperty
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvCreateFileCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvReleaseCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvGrabFrame
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found _cvCreateCameraCapture
+                 Referenced in video_camera.obj
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_highgui231d
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+               Found opencv_highgui231d_NULL_THUNK_DATA
+                 Referenced in opencv_highgui231d.lib(opencv_highgui231d.dll)
+                 Loaded opencv_highgui231d.lib(opencv_highgui231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_ml231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_video231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_features2d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_calib3d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_objdetect231d.lib:
+               Found _cvReleaseHaarClassifierCascade
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found _cvHaarDetectObjects
+                 Referenced in vjfacedetect.obj
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found __IMPORT_DESCRIPTOR_opencv_objdetect231d
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+               Found opencv_objdetect231d_NULL_THUNK_DATA
+                 Referenced in opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+                 Loaded opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_contrib231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_legacy231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_flann231d.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\libcpmtd.lib:
+               Found "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded libcpmtd.lib(newaop.obj)
+               Found "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+                 Referenced in demo_fit.obj
+                 Loaded libcpmtd.lib(stdthrow.obj)
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\LIBCMTD.lib:
+               Found "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(delete2.obj)
+               Found "void __stdcall `eh vector constructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIHP6EX0@Z1@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(ehvecctr.obj)
+               Found _exit
+                 Referenced in demo_fit.obj
+                 Loaded LIBCMTD.lib(crt0dat.obj)
+               Found _printf
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(printf.obj)
+               Found _atoi
+                 Referenced in demo_fit.obj
+                 Loaded LIBCMTD.lib(atox.obj)
+               Found _fprintf
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded LIBCMTD.lib(fprintf.obj)
+               Found ___iob_func
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Loaded LIBCMTD.lib(_file.obj)
+               Found ___security_cookie
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(ehvecctr.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(gs_cookie.obj)
+               Found ___CxxFrameHandler3
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_trnsctrl_.obj)
+               Found __fltused
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_fpinit_.obj)
+               Found @__security_check_cookie@4
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Loaded LIBCMTD.lib(secchk.obj)
+               Found @_RTC_CheckStackVars@8
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_stack_.obj)
+               Found __ftol2_sse
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Loaded LIBCMTD.lib(ftol2.obj)
+               Found __RTC_Shutdown
+                 Referenced in demo_fit.obj
+                 Referenced in video_camera.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_init_.obj)
+               Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Referenced in LIBCMTD.lib(delete2.obj)
+                 Loaded LIBCMTD.lib(dbgdel.obj)
+               Found "void __stdcall `eh vector destructor iterator'(void *,unsigned int,int,void (__thiscall*)(void *))" (??_M@YGXPAXIHP6EX0@Z@Z)
+                 Referenced in demo_fit.obj
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(ehvecdtr.obj)
+               Found _sqrt
+                 Referenced in vjfacedetect.obj
+                 Loaded LIBCMTD.lib(_sqrt_.obj)
+               Found _mainCRTStartup
+                 Loaded LIBCMTD.lib(crt0.obj)
+               Found "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+                 Referenced in libcpmtd.lib(newaop.obj)
+                 Loaded LIBCMTD.lib(new.obj)
+               Found __CrtDbgReportW
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in libcpmtd.lib(stdthrow.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(dbgrptw.obj)
+               Found __except_handler4
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(ehvecdtr.obj)
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(ehvecctr.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(chandler4.obj)
+               Found ___xc_a
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(crt0init.obj)
+         Processed /DEFAULTLIB:kernel32.lib
+          Processed /DISALLOWLIB:libcmt.lib
+          Processed /DISALLOWLIB:msvcrt.lib
+          Processed /DISALLOWLIB:msvcrtd.lib
+               Found _atexit
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Loaded LIBCMTD.lib(onexit.obj)
+               Found __RTC_Terminate
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(_initsect_.obj)
+               Found __initp_misc_cfltcvt_tab
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(cmiscdat.obj)
+               Found __IsNonwritableInCurrentImage
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(chandler4.obj)
+                 Loaded LIBCMTD.lib(pesect.obj)
+               Found __NMSG_WRITE
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(crt0msg.obj)
+               Found ___initialmbcinfo
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(mbctype.obj)
+               Found __encoded_null
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(tidtable.obj)
+               Found __free_dbg
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dbgheap.obj)
+               Found __lock
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(dbgdel.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(mlock.obj)
+               Found __initp_eh_hooks
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(hooks.obj)
+               Found __initp_misc_winsig
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(winsig.obj)
+               Found __initp_misc_rand_s
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(rand_s.obj)
+               Found __initp_misc_purevirt
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(inithelp.obj)
+               Found __initp_misc_invarg
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(invarg.obj)
+               Found __initp_heap_handler
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded LIBCMTD.lib(handler.obj)
+               Found __errno
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dosmap.obj)
+               Found __ftbuf
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(_sftbuf.obj)
+               Found __output_l
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(output.obj)
+               Found __vprintf_l
+                 Referenced in LIBCMTD.lib(printf.obj)
+                 Loaded LIBCMTD.lib(vprintf.obj)
+               Found _strtol
+                 Referenced in LIBCMTD.lib(atox.obj)
+                 Loaded LIBCMTD.lib(strtol.obj)
+               Found __strtoi64
+                 Referenced in LIBCMTD.lib(atox.obj)
+                 Loaded LIBCMTD.lib(strtoq.obj)
+               Found ___badioinfo
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(ioinit.obj)
+               Found __fileno
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Referenced in LIBCMTD.lib(_sftbuf.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(fileno.obj)
+               Found __vfprintf_l
+                 Referenced in LIBCMTD.lib(fprintf.obj)
+                 Loaded LIBCMTD.lib(vfprintf.obj)
+               Found __fcloseall
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Loaded LIBCMTD.lib(closeall.obj)
+               Found __flushall
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Loaded LIBCMTD.lib(fflush.obj)
+               Found ___InternalCxxFrameHandler
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Loaded LIBCMTD.lib(frame.obj)
+               Found __CallSettingFrame@12
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(lowhelpr.obj)
+               Found __setdefaultprecision
+                 Referenced in LIBCMTD.lib(_fpinit_.obj)
+                 Loaded LIBCMTD.lib(fp8.obj)
+               Found __forcdecpt_l
+                 Referenced in LIBCMTD.lib(_fpinit_.obj)
+                 Loaded LIBCMTD.lib(cvt.obj)
+               Found ___report_gsfailure
+                 Referenced in LIBCMTD.lib(secchk.obj)
+                 Loaded LIBCMTD.lib(gs_report.obj)
+               Found "void __cdecl _RTC_Failure(void *,int)" (?_RTC_Failure@@YAXPAXH@Z)
+                 Referenced in LIBCMTD.lib(_stack_.obj)
+                 Loaded LIBCMTD.lib(_error_.obj)
+               Found ___sse2_available
+                 Referenced in LIBCMTD.lib(ftol2.obj)
+                 Loaded LIBCMTD.lib(cpu_disp.obj)
+               Found __RTC_SetErrorFuncW
+                 Referenced in LIBCMTD.lib(_init_.obj)
+                 Loaded LIBCMTD.lib(_userapi_.obj)
+               Found __CRT_RTC_INITW
+                 Referenced in LIBCMTD.lib(_init_.obj)
+                 Loaded LIBCMTD.lib(chkesp.obj)
+               Found __indefinite
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_87disp_.obj)
+               Found __startOneArgErrorHandling
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_genexcep_.obj)
+               Found __fload_withFB
+                 Referenced in LIBCMTD.lib(_sqrt_.obj)
+                 Loaded LIBCMTD.lib(_common_.obj)
+               Found ___CxxSetUnhandledExceptionFilter
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(unhandld.obj)
+               Found ___security_init_cookie
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(gs_support.obj)
+               Found __XcptFilter
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(winxfltr.obj)
+               Found __setenvp
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(stdenvp.obj)
+               Found __setargv
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(stdargv.obj)
+               Found ___crtGetEnvironmentStringsA
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(a_env.obj)
+               Found __heap_init
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded LIBCMTD.lib(heapinit.obj)
+               Found _malloc
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Loaded LIBCMTD.lib(dbgmalloc.obj)
+               Found __CxxThrowException@8
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(throw.obj)
+               Found "const type_info::`vftable'" (??_7type_info@@6B@)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(typinfo.obj)
+               Found "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+                 Referenced in LIBCMTD.lib(new.obj)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(stdexcpt.obj)
+               Found __pReportHookListW
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(dbgrptt.obj)
+               Found ___crtMessageBoxW
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(crtmboxw.obj)
+               Found __snwprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(swprintf.obj)
+               Found _memcpy_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Loaded LIBCMTD.lib(memcpy_s.obj)
+               Found _wcslen
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcslen.obj)
+               Found _wcscpy_s
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcscpy_s.obj)
+               Found __chkstk
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(chkstk.obj)
+               Found @_EH4_TransferToHandler@8
+                 Referenced in LIBCMTD.lib(chandler4.obj)
+                 Loaded LIBCMTD.lib(exsup4.obj)
+               Found __fptrap
+                 Referenced in LIBCMTD.lib(cmiscdat.obj)
+                 Loaded LIBCMTD.lib(crt0fp.obj)
+               Found __set_error_mode
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(errmode.obj)
+               Found _wcscat_s
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcscat_s.obj)
+               Found _wcsncpy_s
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Loaded LIBCMTD.lib(wcsncpy_s.obj)
+               Found _strlen
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(stdenvp.obj)
+                 Loaded LIBCMTD.lib(strlen.obj)
+               Found ___globallocalestatus
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Loaded LIBCMTD.lib(glstatus.obj)
+               Found ___updatetlocinfo
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Loaded LIBCMTD.lib(localref.obj)
+               Found ___ptlocinfo
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(nlsdata2.obj)
+               Found ___crtLCMapStringA
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded LIBCMTD.lib(a_map.obj)
+               Found ___crtGetStringTypeA
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded LIBCMTD.lib(a_str.obj)
+               Found __newmode
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(dbgmalloc.obj)
+                 Loaded LIBCMTD.lib(_newmode.obj)
+               Found _memset
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(memcpy_s.obj)
+                 Referenced in LIBCMTD.lib(wcscpy_s.obj)
+                 Referenced in LIBCMTD.lib(wcscat_s.obj)
+                 Referenced in LIBCMTD.lib(wcsncpy_s.obj)
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(memset.obj)
+               Found __heap_alloc_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(malloc.obj)
+               Found __CrtDbgReport
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(chkesp.obj)
+                 Loaded LIBCMTD.lib(dbgrpt.obj)
+               Found __pfnAllocHook
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(dbghook.obj)
+               Found __expand_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(expand.obj)
+               Found __realloc_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(realloc.obj)
+               Found __free_base
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Loaded LIBCMTD.lib(free.obj)
+               Found __heapchk
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(heapchk.obj)
+               Found _sprintf_s
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded LIBCMTD.lib(sprintf.obj)
+               Found __chvalidator_l
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(isctype.obj)
+               Found _memcpy
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(memcpy_s.obj)
+                 Loaded LIBCMTD.lib(memcpy.obj)
+               Found _abort
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded LIBCMTD.lib(abort.obj)
+               Found _strncpy_s
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded LIBCMTD.lib(strncpy_s.obj)
+               Found ___crtGetLocaleInfoA
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded LIBCMTD.lib(a_loc.obj)
+               Found __isatty
+                 Referenced in LIBCMTD.lib(_sftbuf.obj)
+                 Loaded LIBCMTD.lib(isatty.obj)
+               Found _wctomb_s
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Loaded LIBCMTD.lib(wctomb.obj)
+               Found __isleadbyte_l
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(isctype.obj)
+                 Loaded LIBCMTD.lib(_wctype.obj)
+               Found __aulldiv
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(ulldiv.obj)
+               Found __aullrem
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(ullrem.obj)
+               Found __flsbuf
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Referenced in LIBCMTD.lib(sprintf.obj)
+                 Loaded LIBCMTD.lib(_flsbuf.obj)
+               Found __output_s_l
+                 Referenced in LIBCMTD.lib(vprintf.obj)
+                 Referenced in LIBCMTD.lib(vfprintf.obj)
+                 Loaded LIBCMTD.lib(outputs.obj)
+               Found __output_p_l
+                 Referenced in LIBCMTD.lib(vprintf.obj)
+                 Referenced in LIBCMTD.lib(vfprintf.obj)
+                 Loaded LIBCMTD.lib(outputp.obj)
+               Found ___locale_changed
+                 Referenced in LIBCMTD.lib(strtol.obj)
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Referenced in LIBCMTD.lib(isctype.obj)
+                 Loaded LIBCMTD.lib(setlocal.obj)
+               Found __allmul
+                 Referenced in LIBCMTD.lib(strtoq.obj)
+                 Loaded LIBCMTD.lib(llmul.obj)
+               Found _fclose
+                 Referenced in LIBCMTD.lib(closeall.obj)
+                 Loaded LIBCMTD.lib(fclose.obj)
+               Found __commit
+                 Referenced in LIBCMTD.lib(fflush.obj)
+                 Loaded LIBCMTD.lib(commit.obj)
+               Found __write
+                 Referenced in LIBCMTD.lib(fflush.obj)
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(write.obj)
+               Found "int __cdecl _ValidateRead(void const *,unsigned int)" (?_ValidateRead@@YAHPBXI@Z)
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Loaded LIBCMTD.lib(validate.obj)
+               Found _strcmp
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Referenced in LIBCMTD.lib(typinfo.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcmp.obj)
+               Found _memmove
+                 Referenced in LIBCMTD.lib(frame.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(memmove.obj)
+               Found __NLG_Notify
+                 Referenced in LIBCMTD.lib(lowhelpr.obj)
+                 Referenced in LIBCMTD.lib(exsup4.obj)
+                 Loaded LIBCMTD.lib(exsup.obj)
+               Found __controlfp_s
+                 Referenced in LIBCMTD.lib(fp8.obj)
+                 Loaded LIBCMTD.lib(_contrlfp_.obj)
+               Found _isdigit
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_ctype.obj)
+               Found _tolower
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(tolower.obj)
+               Found __atoflt_l
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(atodbl.obj)
+               Found __fptostr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_fptostr.obj)
+               Found __fltout2
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(_cfout_.obj)
+               Found __outputformat
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(outputformat.obj)
+               Found _strcpy_s
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(_cfout_.obj)
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Referenced in LIBCMTD.lib(stdenvp.obj)
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(strcpy_s.obj)
+               Found __allrem
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(llrem.obj)
+               Found __alldiv
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(lldiv.obj)
+               Found __allshl
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(llshl.obj)
+               Found __aullshr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(ullshr.obj)
+               Found _strrchr
+                 Referenced in LIBCMTD.lib(cvt.obj)
+                 Loaded LIBCMTD.lib(strrchr.obj)
+               Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded LIBCMTD.lib(_pdblkup_.obj)
+               Found __87except
+                 Referenced in LIBCMTD.lib(_genexcep_.obj)
+                 Loaded LIBCMTD.lib(_87except_.obj)
+               Found __ismbblead
+                 Referenced in LIBCMTD.lib(stdargv.obj)
+                 Loaded LIBCMTD.lib(ismbbyte.obj)
+               Found "private: static char const * __cdecl type_info::_Name_base(class type_info const *,struct __type_info_node *)" (?_Name_base@type_info@@CAPBDPBV1@PAU__type_info_node@@@Z)
+                 Referenced in LIBCMTD.lib(typinfo.obj)
+                 Loaded LIBCMTD.lib(typname.obj)
+               Found _free
+                 Referenced in LIBCMTD.lib(typname.obj)
+                 Referenced in LIBCMTD.lib(stdexcpt.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Loaded LIBCMTD.lib(dbgfree.obj)
+               Found _mbstowcs_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(mbstowcs.obj)
+               Found _strcat_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcat_s.obj)
+               Found __vsnprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(vsnprnc.obj)
+               Found __itoa_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(xtoas.obj)
+               Found _wcstombs_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(wcstombs.obj)
+               Found __vsnwprintf_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(vswprnc.obj)
+               Found __itow_s
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded LIBCMTD.lib(xtows.obj)
+               Found __woutput_l
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Loaded LIBCMTD.lib(woutput.obj)
+               Found ___vswprintf_l
+                 Referenced in LIBCMTD.lib(swprintf.obj)
+                 Loaded LIBCMTD.lib(vswprint.obj)
+               Found ___free_lc_time
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(inittime.obj)
+               Found ___free_lconv_num
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(initnum.obj)
+               Found ___free_lconv_mon
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Loaded LIBCMTD.lib(initmon.obj)
+               Found ___lconv_c
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(nlsdata2.obj)
+                 Referenced in LIBCMTD.lib(initnum.obj)
+                 Referenced in LIBCMTD.lib(initmon.obj)
+                 Loaded LIBCMTD.lib(lconv.obj)
+               Found ___newcumap
+                 Referenced in LIBCMTD.lib(nlsdata2.obj)
+                 Loaded LIBCMTD.lib(ctype.obj)
+               Found __VEC_memzero
+                 Referenced in LIBCMTD.lib(memset.obj)
+                 Loaded LIBCMTD.lib(p4_memset.obj)
+               Found ___crtMessageBoxA
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Loaded LIBCMTD.lib(crtmbox.obj)
+               Found __vsprintf_l
+                 Referenced in LIBCMTD.lib(sprintf.obj)
+                 Loaded LIBCMTD.lib(vsprintf.obj)
+               Found __VEC_memcpy
+                 Referenced in LIBCMTD.lib(memcpy.obj)
+                 Referenced in LIBCMTD.lib(memmove.obj)
+                 Loaded LIBCMTD.lib(p4_memcpy.obj)
+               Found ____mb_cur_max_func
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Loaded LIBCMTD.lib(initctyp.obj)
+               Found _iswctype
+                 Referenced in LIBCMTD.lib(_wctype.obj)
+                 Loaded LIBCMTD.lib(iswctype.obj)
+               Found __lseeki64
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(lseeki64.obj)
+               Found __getbuf
+                 Referenced in LIBCMTD.lib(_flsbuf.obj)
+                 Loaded LIBCMTD.lib(_getbuf.obj)
+               Found ___init_collate
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(initcoll.obj)
+               Found ___mb_cur_max
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(nlsdata1.obj)
+               Found _strcspn
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strcspn.obj)
+               Found _strncmp
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strncmp.obj)
+               Found _strpbrk
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(strpbrk.obj)
+               Found _memcmp
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(memcmp.obj)
+               Found ___get_qualified_locale
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Loaded LIBCMTD.lib(getqloc.obj)
+               Found __close
+                 Referenced in LIBCMTD.lib(fclose.obj)
+                 Loaded LIBCMTD.lib(close.obj)
+               Found __freebuf
+                 Referenced in LIBCMTD.lib(fclose.obj)
+                 Loaded LIBCMTD.lib(_freebuf.obj)
+               Found __unlock_fhandle
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Loaded LIBCMTD.lib(osfinfo.obj)
+               Found __putwch_nolock
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded LIBCMTD.lib(putwch.obj)
+               Found _mbtowc
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded LIBCMTD.lib(mbtowc.obj)
+               Found __control87
+                 Referenced in LIBCMTD.lib(_contrlfp_.obj)
+                 Loaded LIBCMTD.lib(_ieee87_.obj)
+               Found __ld12tod
+                 Referenced in LIBCMTD.lib(atodbl.obj)
+                 Loaded LIBCMTD.lib(_intrncvt_.obj)
+               Found ___strgtold12_l
+                 Referenced in LIBCMTD.lib(atodbl.obj)
+                 Loaded LIBCMTD.lib(_strgtold_.obj)
+               Found _$I10_OUTPUT
+                 Referenced in LIBCMTD.lib(_cfout_.obj)
+                 Loaded LIBCMTD.lib(_x10fout_.obj)
+               Found __set_errno_from_matherr
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Loaded LIBCMTD.lib(_fpexcept_.obj)
+               Found __matherr
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_matherr_.obj)
+               Found __ctrlfp
+                 Referenced in LIBCMTD.lib(_87except_.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_fpctrl_.obj)
+               Found ___unDName
+                 Referenced in LIBCMTD.lib(typname.obj)
+                 Loaded LIBCMTD.lib(undname.obj)
+               Found __woutput_s_l
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Loaded LIBCMTD.lib(woutputs.obj)
+               Found __woutput_p_l
+                 Referenced in LIBCMTD.lib(vswprnc.obj)
+                 Referenced in LIBCMTD.lib(vswprint.obj)
+                 Loaded LIBCMTD.lib(woutputp.obj)
+               Found __fputwc_nolock
+                 Referenced in LIBCMTD.lib(woutput.obj)
+                 Referenced in LIBCMTD.lib(woutputs.obj)
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Loaded LIBCMTD.lib(fputwc.obj)
+               Found __stricmp
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded LIBCMTD.lib(stricmp.obj)
+               Found __strnicmp
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded LIBCMTD.lib(strnicmp.obj)
+               Found ___initconout
+                 Referenced in LIBCMTD.lib(putwch.obj)
+                 Loaded LIBCMTD.lib(initcon.obj)
+               Found ___mtold12
+                 Referenced in LIBCMTD.lib(_strgtold_.obj)
+                 Loaded LIBCMTD.lib(_mantold_.obj)
+               Found __pow10neg
+                 Referenced in LIBCMTD.lib(_strgtold_.obj)
+                 Referenced in LIBCMTD.lib(_x10fout_.obj)
+                 Loaded LIBCMTD.lib(_constpow_.obj)
+               Found __decomp
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded LIBCMTD.lib(_util_.obj)
+               Found __purecall
+                 Referenced in LIBCMTD.lib(undname.obj)
+                 Loaded LIBCMTD.lib(purevirt.obj)
+               Found _wcstol
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Loaded LIBCMTD.lib(wcstol.obj)
+               Found __flswbuf
+                 Referenced in LIBCMTD.lib(fputwc.obj)
+                 Loaded LIBCMTD.lib(_flswbuf.obj)
+               Found ___ascii_strnicmp
+                 Referenced in LIBCMTD.lib(strnicmp.obj)
+                 Loaded LIBCMTD.lib(_strnicm.obj)
+               Found __wchartodigit
+                 Referenced in LIBCMTD.lib(wcstol.obj)
+                 Loaded LIBCMTD.lib(wchtodig.obj)
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+               Found __imp__InterlockedIncrement@4
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InterlockedDecrement@4
+                 Referenced in LIBCMTD.lib(initmon.obj)
+                 Referenced in LIBCMTD.lib(initctyp.obj)
+                 Referenced in LIBCMTD.lib(localref.obj)
+                 Referenced in LIBCMTD.lib(setlocal.obj)
+                 Referenced in LIBCMTD.lib(inittime.obj)
+                 Referenced in LIBCMTD.lib(initnum.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DecodePointer@4
+                 Referenced in LIBCMTD.lib(purevirt.obj)
+                 Referenced in LIBCMTD.lib(woutput.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(woutputs.obj)
+                 Referenced in LIBCMTD.lib(woutputp.obj)
+                 Referenced in LIBCMTD.lib(output.obj)
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(outputs.obj)
+                 Referenced in LIBCMTD.lib(outputp.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(handler.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(onexit.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcAddress@8
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleHandleW@4
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__ExitProcess@4
+                 Referenced in LIBCMTD.lib(crt0dat.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EnterCriticalSection@4
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LeaveCriticalSection@4
+                 Referenced in LIBCMTD.lib(_file.obj)
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found _RtlUnwind@16
+                 Referenced in LIBCMTD.lib(_trnsctrl_.obj)
+                 Referenced in LIBCMTD.lib(exsup4.obj)
+                 Referenced in LIBCMTD.lib(exsup.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCommandLineA@0
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapSetInformation@16
+                 Referenced in LIBCMTD.lib(crt0.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameW@12
+                 Referenced in LIBCMTD.lib(dbgrptw.obj)
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EncodePointer@4
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(purevirt.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(handler.obj)
+                 Referenced in LIBCMTD.lib(onexit.obj)
+                 Referenced in LIBCMTD.lib(cmiscdat.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(hooks.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WriteFile@20
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStdHandle@4
+                 Referenced in LIBCMTD.lib(crt0msg.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetACP@0
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetOEMCP@0
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCPInfo@8
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(initctyp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsValidCodePage@4
+                 Referenced in LIBCMTD.lib(mbctype.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsAlloc@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsGetValue@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsSetValue@8
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThreadId@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TlsFree@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetLastError@4
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLastError@0
+                 Referenced in LIBCMTD.lib(wcstombs.obj)
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(mbstowcs.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Referenced in LIBCMTD.lib(free.obj)
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentThread@0
+                 Referenced in LIBCMTD.lib(tidtable.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapValidate@12
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Referenced in LIBCMTD.lib(heapchk.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsBadReadPtr@8
+                 Referenced in LIBCMTD.lib(dbgheap.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InitializeCriticalSectionAndSpinCount@8
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__DeleteCriticalSection@4
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(closeall.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FatalAppExitA@8
+                 Referenced in LIBCMTD.lib(mlock.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetConsoleCtrlHandler@8
+                 Referenced in LIBCMTD.lib(winsig.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeLibrary@4
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__InterlockedExchange@8
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LoadLibraryW@4
+                 Referenced in LIBCMTD.lib(crtmbox.obj)
+                 Referenced in LIBCMTD.lib(rand_s.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(crtmboxw.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLocaleInfoW@16
+                 Referenced in LIBCMTD.lib(inithelp.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__TerminateProcess@8
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentProcess@0
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__UnhandledExceptionFilter@4
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetUnhandledExceptionFilter@4
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Referenced in LIBCMTD.lib(unhandld.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsDebuggerPresent@0
+                 Referenced in LIBCMTD.lib(invarg.obj)
+                 Referenced in LIBCMTD.lib(gs_report.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetHandleCount@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetFileType@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStartupInfoW@4
+                 Referenced in LIBCMTD.lib(ioinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WideCharToMultiByte@32
+                 Referenced in LIBCMTD.lib(wctomb.obj)
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Referenced in LIBCMTD.lib(wcstombs.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_loc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__MultiByteToWideChar@24
+                 Referenced in LIBCMTD.lib(mbtowc.obj)
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(mbstowcs.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__RaiseException@16
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Referenced in LIBCMTD.lib(throw.obj)
+                 Referenced in LIBCMTD.lib(_fpexcept_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__lstrlenA@4
+                 Referenced in LIBCMTD.lib(_error_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsProcessorFeaturePresent@4
+                 Referenced in LIBCMTD.lib(cpu_disp.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__QueryPerformanceCounter@4
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetTickCount@0
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetCurrentProcessId@0
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetSystemTimeAsFileTime@4
+                 Referenced in LIBCMTD.lib(gs_support.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetModuleFileNameA@12
+                 Referenced in LIBCMTD.lib(stdargv.obj)
+                 Referenced in LIBCMTD.lib(dbgrpt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FreeEnvironmentStringsW@4
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetEnvironmentStringsW@0
+                 Referenced in LIBCMTD.lib(a_env.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapCreate@12
+                 Referenced in LIBCMTD.lib(heapinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapDestroy@4
+                 Referenced in LIBCMTD.lib(heapinit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__OutputDebugStringA@4
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__WriteConsoleW@20
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Referenced in LIBCMTD.lib(putwch.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__OutputDebugStringW@4
+                 Referenced in LIBCMTD.lib(dbgrptt.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__LCMapStringW@24
+                 Referenced in LIBCMTD.lib(a_map.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetStringTypeW@16
+                 Referenced in LIBCMTD.lib(a_str.obj)
+                 Referenced in LIBCMTD.lib(iswctype.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapAlloc@12
+                 Referenced in LIBCMTD.lib(malloc.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapReAlloc@16
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Referenced in LIBCMTD.lib(realloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapSize@12
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapQueryInformation@20
+                 Referenced in LIBCMTD.lib(expand.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__HeapFree@12
+                 Referenced in LIBCMTD.lib(free.obj)
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__FlushFileBuffers@4
+                 Referenced in LIBCMTD.lib(commit.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetConsoleCP@0
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetConsoleMode@8
+                 Referenced in LIBCMTD.lib(write.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetProcessHeap@0
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__VirtualQuery@12
+                 Referenced in LIBCMTD.lib(_pdblkup_.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetFilePointer@16
+                 Referenced in LIBCMTD.lib(lseeki64.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetLocaleInfoA@16
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__IsValidLocale@8
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__EnumSystemLocalesA@8
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__GetUserDefaultLCID@0
+                 Referenced in LIBCMTD.lib(getqloc.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__CloseHandle@4
+                 Referenced in LIBCMTD.lib(close.obj)
+                 Referenced in LIBCMTD.lib(initcon.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__SetStdHandle@8
+                 Referenced in LIBCMTD.lib(osfinfo.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __imp__CreateFileW@28
+                 Referenced in LIBCMTD.lib(initcon.obj)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found __IMPORT_DESCRIPTOR_KERNEL32
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+               Found KERNEL32_NULL_THUNK_DATA
+                 Referenced in kernel32.lib(KERNEL32.dll)
+                 Loaded kernel32.lib(KERNEL32.dll)
+             Searching ../libs\asmlibraryd.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_core231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_imgproc231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_highgui231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_ml231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_video231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_features2d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_calib3d231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_objdetect231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_contrib231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_legacy231d.lib:
+             Searching C:\OpenCV2.31\build\x86\vc10\lib\opencv_flann231d.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\libcpmtd.lib:
+             Searching C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\LIBCMTD.lib:
+             Searching c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\OLDNAMES.lib:
+         
+         Finished searching libraries
+         
+         Finished pass 1
+         
+         Generating non-SAFESEH image.
+         
+         Invoking CVTRES.EXE:
+          /machine:x86
+          /verbose
+          /out:"C:\Users\tom\AppData\Local\Temp\lnk2948.tmp"
+          /readonly
+          "..\temp\d\fitD.exe.embed.manifest.res"
+         Microsoft (R) Windows Resource To Object Converter Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:406
+         Starting pass 2
+              fitD.exe.embed.manifest.res
+              vjfacedetect.obj
+              video_camera.obj
+              demo_fit.obj
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              asmlibraryd.lib(asmlibraryD.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_core231d.lib(opencv_core231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_imgproc231d.lib(opencv_imgproc231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_highgui231d.lib(opencv_highgui231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              opencv_objdetect231d.lib(opencv_objdetect231d.dll)
+              libcpmtd.lib(newaop.obj)
+              libcpmtd.lib(stdthrow.obj)
+              LIBCMTD.lib(chandler4.obj)
+              LIBCMTD.lib(chkesp.obj)
+              LIBCMTD.lib(exsup.obj)
+              LIBCMTD.lib(exsup4.obj)
+              LIBCMTD.lib(p4_memcpy.obj)
+              LIBCMTD.lib(memcmp.obj)
+              LIBCMTD.lib(p4_memset.obj)
+              LIBCMTD.lib(_fptostr.obj)
+              LIBCMTD.lib(atox.obj)
+              LIBCMTD.lib(wchtodig.obj)
+              LIBCMTD.lib(xtoas.obj)
+              LIBCMTD.lib(xtows.obj)
+              LIBCMTD.lib(dosmap.obj)
+              LIBCMTD.lib(expand.obj)
+              LIBCMTD.lib(free.obj)
+              LIBCMTD.lib(heapchk.obj)
+              LIBCMTD.lib(heapinit.obj)
+              LIBCMTD.lib(malloc.obj)
+              LIBCMTD.lib(realloc.obj)
+              LIBCMTD.lib(_newmode.obj)
+              LIBCMTD.lib(close.obj)
+              LIBCMTD.lib(commit.obj)
+              LIBCMTD.lib(initcon.obj)
+              LIBCMTD.lib(ioinit.obj)
+              LIBCMTD.lib(isatty.obj)
+              LIBCMTD.lib(lseeki64.obj)
+              LIBCMTD.lib(osfinfo.obj)
+              LIBCMTD.lib(write.obj)
+              LIBCMTD.lib(putwch.obj)
+              LIBCMTD.lib(secchk.obj)
+              LIBCMTD.lib(a_env.obj)
+              LIBCMTD.lib(abort.obj)
+              LIBCMTD.lib(crtmbox.obj)
+              LIBCMTD.lib(crtmboxw.obj)
+              LIBCMTD.lib(ctype.obj)
+              LIBCMTD.lib(dbghook.obj)
+              LIBCMTD.lib(dbgrpt.obj)
+              LIBCMTD.lib(dbgrptt.obj)
+              LIBCMTD.lib(errmode.obj)
+              LIBCMTD.lib(getqloc.obj)
+              LIBCMTD.lib(glstatus.obj)
+              LIBCMTD.lib(gs_cookie.obj)
+              LIBCMTD.lib(gs_report.obj)
+              LIBCMTD.lib(gs_support.obj)
+              LIBCMTD.lib(initcoll.obj)
+              LIBCMTD.lib(initctyp.obj)
+              LIBCMTD.lib(inithelp.obj)
+              LIBCMTD.lib(initmon.obj)
+              LIBCMTD.lib(initnum.obj)
+              LIBCMTD.lib(inittime.obj)
+              LIBCMTD.lib(lconv.obj)
+              LIBCMTD.lib(localref.obj)
+              LIBCMTD.lib(onexit.obj)
+              LIBCMTD.lib(nlsdata1.obj)
+              LIBCMTD.lib(nlsdata2.obj)
+              LIBCMTD.lib(pesect.obj)
+              LIBCMTD.lib(purevirt.obj)
+              LIBCMTD.lib(rand_s.obj)
+              LIBCMTD.lib(setlocal.obj)
+              LIBCMTD.lib(winsig.obj)
+              LIBCMTD.lib(winxfltr.obj)
+              LIBCMTD.lib(cmiscdat.obj)
+              LIBCMTD.lib(fileno.obj)
+              LIBCMTD.lib(fputwc.obj)
+              LIBCMTD.lib(_file.obj)
+              LIBCMTD.lib(_flsbuf.obj)
+              LIBCMTD.lib(_flswbuf.obj)
+              LIBCMTD.lib(_freebuf.obj)
+              LIBCMTD.lib(_getbuf.obj)
+              LIBCMTD.lib(_sftbuf.obj)
+              LIBCMTD.lib(closeall.obj)
+              LIBCMTD.lib(fclose.obj)
+              LIBCMTD.lib(fflush.obj)
+              LIBCMTD.lib(fprintf.obj)
+              LIBCMTD.lib(outputformat.obj)
+              LIBCMTD.lib(printf.obj)
+              LIBCMTD.lib(sprintf.obj)
+              LIBCMTD.lib(swprintf.obj)
+              LIBCMTD.lib(vprintf.obj)
+              LIBCMTD.lib(vfprintf.obj)
+              LIBCMTD.lib(vsprintf.obj)
+              LIBCMTD.lib(vsnprnc.obj)
+              LIBCMTD.lib(vswprint.obj)
+              LIBCMTD.lib(vswprnc.obj)
+              LIBCMTD.lib(memcpy_s.obj)
+              LIBCMTD.lib(strncmp.obj)
+              LIBCMTD.lib(strcat_s.obj)
+              LIBCMTD.lib(strcpy_s.obj)
+              LIBCMTD.lib(strncpy_s.obj)
+              LIBCMTD.lib(wcscat_s.obj)
+              LIBCMTD.lib(wcscpy_s.obj)
+              LIBCMTD.lib(wcslen.obj)
+              LIBCMTD.lib(wcsncpy_s.obj)
+              LIBCMTD.lib(memcpy.obj)
+              LIBCMTD.lib(memmove.obj)
+              LIBCMTD.lib(memset.obj)
+              LIBCMTD.lib(strcmp.obj)
+              LIBCMTD.lib(strcspn.obj)
+              LIBCMTD.lib(strlen.obj)
+              LIBCMTD.lib(_strnicm.obj)
+              LIBCMTD.lib(strpbrk.obj)
+              LIBCMTD.lib(strrchr.obj)
+              LIBCMTD.lib(lldiv.obj)
+              LIBCMTD.lib(llmul.obj)
+              LIBCMTD.lib(llrem.obj)
+              LIBCMTD.lib(llshl.obj)
+              LIBCMTD.lib(ulldiv.obj)
+              LIBCMTD.lib(ullrem.obj)
+              LIBCMTD.lib(ullshr.obj)
+              LIBCMTD.lib(handler.obj)
+              LIBCMTD.lib(delete2.obj)
+              LIBCMTD.lib(new.obj)
+              LIBCMTD.lib(dbgdel.obj)
+              LIBCMTD.lib(_ctype.obj)
+              LIBCMTD.lib(_wctype.obj)
+              LIBCMTD.lib(atodbl.obj)
+              LIBCMTD.lib(iswctype.obj)
+              LIBCMTD.lib(isctype.obj)
+              LIBCMTD.lib(mbstowcs.obj)
+              LIBCMTD.lib(mbtowc.obj)
+              LIBCMTD.lib(strtol.obj)
+              LIBCMTD.lib(strtoq.obj)
+              LIBCMTD.lib(tolower.obj)
+              LIBCMTD.lib(wcstol.obj)
+              LIBCMTD.lib(wcstombs.obj)
+              LIBCMTD.lib(wctomb.obj)
+              LIBCMTD.lib(ismbbyte.obj)
+              LIBCMTD.lib(mbctype.obj)
+              LIBCMTD.lib(a_loc.obj)
+              LIBCMTD.lib(a_map.obj)
+              LIBCMTD.lib(a_str.obj)
+              LIBCMTD.lib(dbgfree.obj)
+              LIBCMTD.lib(dbgheap.obj)
+              LIBCMTD.lib(dbgmalloc.obj)
+              LIBCMTD.lib(dbgrptw.obj)
+              LIBCMTD.lib(invarg.obj)
+              LIBCMTD.lib(output.obj)
+              LIBCMTD.lib(outputp.obj)
+              LIBCMTD.lib(outputs.obj)
+              LIBCMTD.lib(woutput.obj)
+              LIBCMTD.lib(woutputp.obj)
+              LIBCMTD.lib(woutputs.obj)
+              LIBCMTD.lib(stricmp.obj)
+              LIBCMTD.lib(strnicmp.obj)
+              LIBCMTD.lib(tidtable.obj)
+              LIBCMTD.lib(stdenvp.obj)
+              LIBCMTD.lib(stdargv.obj)
+              LIBCMTD.lib(mlock.obj)
+              LIBCMTD.lib(crt0msg.obj)
+              LIBCMTD.lib(crt0init.obj)
+              LIBCMTD.lib(crt0fp.obj)
+              LIBCMTD.lib(crt0dat.obj)
+              LIBCMTD.lib(crt0.obj)
+              LIBCMTD.lib(fp8.obj)
+              LIBCMTD.lib(chkstk.obj)
+              LIBCMTD.lib(_x10fout_.obj)
+              LIBCMTD.lib(_strgtold_.obj)
+              LIBCMTD.lib(_mantold_.obj)
+              LIBCMTD.lib(_intrncvt_.obj)
+              LIBCMTD.lib(_fpinit_.obj)
+              LIBCMTD.lib(_constpow_.obj)
+              LIBCMTD.lib(_cfout_.obj)
+              LIBCMTD.lib(cvt.obj)
+              LIBCMTD.lib(_sqrt_.obj)
+              LIBCMTD.lib(_common_.obj)
+              LIBCMTD.lib(_genexcep_.obj)
+              LIBCMTD.lib(_87disp_.obj)
+              LIBCMTD.lib(_ieee87_.obj)
+              LIBCMTD.lib(_fpctrl_.obj)
+              LIBCMTD.lib(_87except_.obj)
+              LIBCMTD.lib(_matherr_.obj)
+              LIBCMTD.lib(_util_.obj)
+              LIBCMTD.lib(_fpexcept_.obj)
+              LIBCMTD.lib(_contrlfp_.obj)
+              LIBCMTD.lib(ftol2.obj)
+              LIBCMTD.lib(cpu_disp.obj)
+              LIBCMTD.lib(_trnsctrl_.obj)
+              LIBCMTD.lib(lowhelpr.obj)
+              LIBCMTD.lib(undname.obj)
+              LIBCMTD.lib(ehvecdtr.obj)
+              LIBCMTD.lib(ehvecctr.obj)
+              LIBCMTD.lib(unhandld.obj)
+              LIBCMTD.lib(validate.obj)
+              LIBCMTD.lib(typname.obj)
+              LIBCMTD.lib(typinfo.obj)
+              LIBCMTD.lib(stdexcpt.obj)
+              LIBCMTD.lib(throw.obj)
+              LIBCMTD.lib(hooks.obj)
+              LIBCMTD.lib(frame.obj)
+              LIBCMTD.lib(_userapi_.obj)
+              LIBCMTD.lib(_stack_.obj)
+              LIBCMTD.lib(_pdblkup_.obj)
+              LIBCMTD.lib(_initsect_.obj)
+              LIBCMTD.lib(_init_.obj)
+              LIBCMTD.lib(_error_.obj)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+              kernel32.lib(KERNEL32.dll)
+         Finished pass 2
+         fit.vcxproj -> C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\..\example\fitD.exe
+       FinalizeBuildStatus:
+         Deleting file "..\temp\d\fit.unsuccessfulbuild".
+         Touching "..\temp\d\fit.lastbuildstate".
+     1>Done Building Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\fit.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.62

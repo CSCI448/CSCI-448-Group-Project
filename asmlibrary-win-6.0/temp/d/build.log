@@ -1,0 +1,59 @@
+﻿Build started 3/25/2012 6:23:14 PM.
+     1>Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\build.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "..\temp/d\build.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "..\temp/d\build.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../libs/200 /IC:\OpenCV2.31\build\include /IC:\OpenCV2.31\build\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../temp/d/" /Fd".\../temp/d/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demo_build.cpp ..\src\vjfacedetect.cpp
+         vjfacedetect.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv2.31\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv2.31\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\vjfacedetect.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         demo_build.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\opencv2.31\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\opencv2.31\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\tom\documents\visual studio 2010\projects\asmlibrary-win-6.0\src\demo_build.cpp(251): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\temp/d\build.exe.embed.manifest.res" ..\temp/d\build_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\..\example\build.exe) does not match the Linker's OutputFile property value (C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\example\buildD.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(build) does not match the Linker's OutputFile property value (buildD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/buildD.exe" /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:C:\OpenCV2.31\build\x86\vc10\lib asmlibrary.lib odbc32.lib odbccp32.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib /MANIFEST /ManifestFile:"..\temp/d\build.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../example/buildD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\example\build.lib" /MACHINE:X86 ..\temp/d\build.exe.embed.manifest.res
+         .\../temp/d/demo_build.obj
+         .\../temp/d/vjfacedetect.obj
+       Manifest:
+         Deleting file "..\temp/d\build.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\temp/d\build.exe.embed.manifest" /manifest ..\temp/d\build.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\temp/d\build.exe.embed.manifest.res" ..\temp/d\build_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../example/buildD.exe" /INCREMENTAL /NOLOGO /LIBPATH:../libs /LIBPATH:C:\OpenCV2.31\build\x86\vc10\lib asmlibrary.lib odbc32.lib odbccp32.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib /MANIFEST /ManifestFile:"..\temp/d\build.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\../example/buildD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\example\build.lib" /MACHINE:X86 ..\temp/d\build.exe.embed.manifest.res
+         .\../temp/d/demo_build.obj
+         .\../temp/d/vjfacedetect.obj
+         build.vcxproj -> C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\..\example\build.exe
+       FinalizeBuildStatus:
+         Deleting file "..\temp/d\build.unsuccessfulbuild".
+         Touching "..\temp/d\build.lastbuildstate".
+     1>Done Building Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\build.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.14

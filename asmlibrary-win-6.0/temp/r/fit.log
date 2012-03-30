@@ -1,0 +1,63 @@
+﻿Build started 3/29/2012 6:47:53 PM.
+     1>Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\fit.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\../temp/r\fit.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\../temp/r\fit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /I../libs /IC:\OpenCV2.31\build\include /IC:\OpenCV2.31\build\include\opencv /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../temp/r/" /Fd".\../temp/r/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demo_fit.cpp ..\src\video_camera.cpp ..\src\vjfacedetect.cpp
+         demo_fit.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : see declaration of 'fopen'
+     1>C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>..\src\demo_fit.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(319): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(319): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(355): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(355): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\src\demo_fit.cpp(358): warning C4102: 'show2' : unreferenced label
+     1>..\src\demo_fit.cpp(262): warning C4101: 'im2' : unreferenced local variable
+         video_camera.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : see declaration of 'fopen'
+     1>C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+         vjfacedetect.cpp
+     1>c:\opencv2.31\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : see declaration of 'fopen'
+     1>C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\OpenCV2.31\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>..\src\vjfacedetect.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\vjfacedetect.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\vjfacedetect.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\vjfacedetect.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\../example/fit.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libs /LIBPATH:C:\OpenCV2.31\build\x86\vc10\lib asmlibrary.lib odbc32.lib odbccp32.lib opencv_core231d.lib opencv_imgproc231d.lib opencv_highgui231d.lib opencv_ml231d.lib opencv_video231d.lib opencv_features2d231d.lib opencv_calib3d231d.lib opencv_objdetect231d.lib opencv_contrib231d.lib opencv_legacy231d.lib opencv_flann231d.lib /MANIFEST /ManifestFile:".\../temp/r\fit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\example\fit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\../example\fit.lib" /MACHINE:X86 .\../temp/r/demo_fit.obj
+         .\../temp/r/video_camera.obj
+         .\../temp/r/vjfacedetect.obj
+         fit.vcxproj -> C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\.\../example\fit.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:".\../example/fit.exe;#1" /manifest .\../temp/r\fit.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\../temp/r\fit.unsuccessfulbuild".
+         Touching ".\../temp/r\fit.lastbuildstate".
+     1>Done Building Project "C:\Users\tom\Documents\Visual Studio 2010\Projects\asmlibrary-win-6.0\msvc\fit.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.74
